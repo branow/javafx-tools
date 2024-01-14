@@ -15,6 +15,11 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.branow</groupId>
+      <artifactId>java-outfits</artifactId>
+      <version>1.2.4</version>
+    </dependency>
+    <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
       <version>17.0.6</version>
