@@ -2,7 +2,7 @@ package com.branow.fxtools;
 
 import javafx.stage.Stage;
 
-public class Frame<C extends Controller> {
+public class Frame<C> {
 
     private final Stage stage;
     private final C controller;

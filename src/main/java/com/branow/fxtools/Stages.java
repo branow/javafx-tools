@@ -47,7 +47,7 @@ public class Stages {
     }
 
 
-    public static<T extends Controller> Frame<T> loadIntoFrame(Stage stage, URL url) throws IOException {
+    public static<T> Frame<T> loadIntoFrame(Stage stage, URL url) throws IOException {
         ParametersChecker.isNullThrow(url);
         ParametersChecker.isNullThrow(stage);
         FXMLLoader fxmlLoader = new FXMLLoader(url);
